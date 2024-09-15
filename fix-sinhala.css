@@ -1,0 +1,11 @@
+/* 
+Added lot of specificity to stop the styles breaking the rest of the website
+*/
+
+[data-ad-comet-preview="message"] > div > div > span > div > div > span {
+  display: contents;
+}
+
+[lang="si-LK"] > div > div > span {
+  display: contents;
+}
