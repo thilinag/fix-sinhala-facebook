@@ -2,10 +2,12 @@
 Added lot of specificity to stop the styles breaking the rest of the website
 */
 
+/* fix posts */
 [data-ad-comet-preview="message"] > div > div > span > div > div > span {
   display: contents;
 }
 
+/* fix comments */
 [lang="si-LK"] > div > div > span {
   display: contents;
 }
